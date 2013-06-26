@@ -8,11 +8,11 @@
 
 #import "AppDelegate.h"
 
-#import "ViewController.h"
+#import "PongViewController.h"
 
 @implementation AppDelegate
 
-@synthesize viewController, optionsViewController, navigationViewController;
+@synthesize viewController, navigationViewController;
 /*
  This method inits all view and nav controllers
  */
@@ -21,10 +21,9 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        self.viewController = [[ViewController alloc] initWithNibName:@"ViewController_iPhone" bundle:nil];
-        self.optionsViewController = [[ViewController alloc] initWithNibName:@"OptionsViewController" bundle:nil];
+        self.viewController = [[PongViewController alloc] initWithNibName:@"ViewController_iPhone" bundle:nil];
     } else {
-        self.viewController = [[ViewController alloc] initWithNibName:@"ViewController_iPad" bundle:nil];
+        self.viewController = [[PongViewController alloc] initWithNibName:@"ViewController_iPad" bundle:nil];
     }
     //initalize our nav view controller
     self.navigationViewController = [[UINavigationController alloc] initWithRootViewController:viewController];
@@ -41,7 +40,7 @@
 
 - (void)applicationDidEnterBackground:(UIApplication *)application
 {
-    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later. 
+    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
     // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
 }
 

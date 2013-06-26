@@ -6,17 +6,16 @@
 //  Copyright (c) 2013 p3Tech. All rights reserved.
 //
 
+
 #import <UIKit/UIKit.h>
 
-@class ViewController;
+@class PongViewController;
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow* window;
 
-@property (strong, nonatomic) ViewController* viewController;
-
-@property (strong, nonatomic) ViewController* optionsViewController;
+@property (strong, nonatomic) PongViewController* viewController;
 
 @property (strong, nonatomic) UINavigationController* navigationViewController;
 

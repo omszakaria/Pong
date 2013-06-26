@@ -16,9 +16,9 @@
 		CA0FD774177B4069007F4738 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CA0FD773177B4069007F4738 /* Default.png */; };
 		CA0FD776177B4069007F4738 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA0FD775177B4069007F4738 /* Default@2x.png */; };
 		CA0FD778177B4069007F4738 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA0FD777177B4069007F4738 /* Default-568h@2x.png */; };
-		CA0FD77B177B4069007F4738 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0FD77A177B4069007F4738 /* ViewController.m */; };
-		CA0FD77E177B4069007F4738 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA0FD77C177B4069007F4738 /* ViewController_iPhone.xib */; };
-		CA0FD781177B4069007F4738 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA0FD77F177B4069007F4738 /* ViewController_iPad.xib */; };
+		CA0FD77B177B4069007F4738 /* PongViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0FD77A177B4069007F4738 /* PongViewController.m */; };
+		CA0FD77E177B4069007F4738 /* PongViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA0FD77C177B4069007F4738 /* PongViewController_iPhone.xib */; };
+		CA0FD781177B4069007F4738 /* PongViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA0FD77F177B4069007F4738 /* PongViewController_iPad.xib */; };
 		CA0FD78A177B414C007F4738 /* OptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0FD788177B414C007F4738 /* OptionsViewController.m */; };
 		CA0FD78B177B414C007F4738 /* OptionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA0FD789177B414C007F4738 /* OptionsViewController.xib */; };
 /* End PBXBuildFile section */
@@ -37,10 +37,10 @@
 		CA0FD773177B4069007F4738 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		CA0FD775177B4069007F4738 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		CA0FD777177B4069007F4738 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		CA0FD779177B4069007F4738 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CA0FD77A177B4069007F4738 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		CA0FD77D177B4069007F4738 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
-		CA0FD780177B4069007F4738 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		CA0FD779177B4069007F4738 /* PongViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PongViewController.h; sourceTree = "<group>"; };
+		CA0FD77A177B4069007F4738 /* PongViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PongViewController.m; sourceTree = "<group>"; };
+		CA0FD77D177B4069007F4738 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PongViewController_iPhone.xib; sourceTree = "<group>"; };
+		CA0FD780177B4069007F4738 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PongViewController_iPad.xib; sourceTree = "<group>"; };
 		CA0FD787177B414C007F4738 /* OptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OptionsViewController.h; path = Pong/OptionsViewController.h; sourceTree = "<group>"; };
 		CA0FD788177B414C007F4738 /* OptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OptionsViewController.m; path = Pong/OptionsViewController.m; sourceTree = "<group>"; };
 		CA0FD789177B414C007F4738 /* OptionsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OptionsViewController.xib; path = Pong/OptionsViewController.xib; sourceTree = "<group>"; };
@@ -93,10 +93,10 @@
 			children = (
 				CA0FD770177B4069007F4738 /* AppDelegate.h */,
 				CA0FD771177B4069007F4738 /* AppDelegate.m */,
-				CA0FD779177B4069007F4738 /* ViewController.h */,
-				CA0FD77A177B4069007F4738 /* ViewController.m */,
-				CA0FD77C177B4069007F4738 /* ViewController_iPhone.xib */,
-				CA0FD77F177B4069007F4738 /* ViewController_iPad.xib */,
+				CA0FD779177B4069007F4738 /* PongViewController.h */,
+				CA0FD77A177B4069007F4738 /* PongViewController.m */,
+				CA0FD77C177B4069007F4738 /* PongViewController_iPhone.xib */,
+				CA0FD77F177B4069007F4738 /* PongViewController_iPad.xib */,
 				CA0FD768177B4069007F4738 /* Supporting Files */,
 			);
 			path = Pong;
@@ -181,8 +181,8 @@
 				CA0FD774177B4069007F4738 /* Default.png in Resources */,
 				CA0FD776177B4069007F4738 /* Default@2x.png in Resources */,
 				CA0FD778177B4069007F4738 /* Default-568h@2x.png in Resources */,
-				CA0FD77E177B4069007F4738 /* ViewController_iPhone.xib in Resources */,
-				CA0FD781177B4069007F4738 /* ViewController_iPad.xib in Resources */,
+				CA0FD77E177B4069007F4738 /* PongViewController_iPhone.xib in Resources */,
+				CA0FD781177B4069007F4738 /* PongViewController_iPad.xib in Resources */,
 				CA0FD78B177B414C007F4738 /* OptionsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -196,7 +196,7 @@
 			files = (
 				CA0FD76E177B4069007F4738 /* main.m in Sources */,
 				CA0FD772177B4069007F4738 /* AppDelegate.m in Sources */,
-				CA0FD77B177B4069007F4738 /* ViewController.m in Sources */,
+				CA0FD77B177B4069007F4738 /* PongViewController.m in Sources */,
 				CA0FD78A177B414C007F4738 /* OptionsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,20 +212,20 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		CA0FD77C177B4069007F4738 /* ViewController_iPhone.xib */ = {
+		CA0FD77C177B4069007F4738 /* PongViewController_iPhone.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				CA0FD77D177B4069007F4738 /* en */,
 			);
-			name = ViewController_iPhone.xib;
+			name = PongViewController_iPhone.xib;
 			sourceTree = "<group>";
 		};
-		CA0FD77F177B4069007F4738 /* ViewController_iPad.xib */ = {
+		CA0FD77F177B4069007F4738 /* PongViewController_iPad.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				CA0FD780177B4069007F4738 /* en */,
 			);
-			name = ViewController_iPad.xib;
+			name = PongViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -330,6 +330,7 @@
 				CA0FD786177B4069007F4738 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
