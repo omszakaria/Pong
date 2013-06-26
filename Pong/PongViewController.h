@@ -8,11 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PongViewController : UIViewController
+@interface PongViewController : UIViewController {}
 
+@property (weak, nonatomic) IBOutlet UILabel *timerLabel;
+@property (readwrite, atomic) double timerCount;
+@property (strong, atomic) NSTimer *timer;
 @property (strong, nonatomic) UIViewController* optionsViewController;
 
--(IBAction)switchToOptionsView:(id)sender;
 
+
+-(IBAction)switchToOptionsView:(id)sender;
+-(void) timerUpdate;
 
 @end
