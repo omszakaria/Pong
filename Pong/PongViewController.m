@@ -43,10 +43,23 @@
     [self.navigationItem setTitle:@"Options"];
 }
 
+- (void) touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
+    UITouch *touch = [touches anyObject];
+    CGPoint touchPoint = [touch locationInView: [self view]];
+    NSLog(@"touch: %f %f", touchPoint.x, touchPoint.y);
+}
+
+- (void) touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event{
+    UITouch *touch = [touches anyObject];
+    CGPoint touchPoint = [touch locationInView: [self view]];
+    NSLog(@"touch moved: %f %f", touchPoint.x, touchPoint.y);
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 
 @end
